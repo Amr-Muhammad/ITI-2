@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(232, 245, 245);
+}
+
+div {
+    text-align: center;
+}
+
+div * {
+    text-align: left;
+}
+
+form {
+    display: inline-block;
+}
+
+table,
+td,
+tr {
+    border: 5px solid rgb(211, 196, 177);
+    border-collapse: collapse;
+    padding: 10px;
+    color: rgb(134, 3, 68);
+}
+
+caption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+
+input:not([type='radio'], [type='checkbox']),
+select {
+    width: 200px;
+}
+
+.alignCenter{
+    text-align: center;
+}
+
+/* span {
+    margin-right: 30px;
+} */
+.hideLeftBorder{
+    border-right: hidden;
+}
+.hideBottomBorder{
+    border-bottom: hidden;
+}
+.music{
+    margin-right: 40px;
+}
+.shopping{
+    margin-right: 20px;
+}
+
+.marginTop {
+    margin-top: 15px;
+}
+
+textarea {
+    resize: none;
+
+}
+
+.btn {
+    text-align: center;
+    width: 100px !important;
+    margin: 0 10px;
+    padding: 5px;
+}

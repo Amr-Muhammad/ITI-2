@@ -1,0 +1,35 @@
+body {
+    background-color: lightsteelblue;
+    color: rgb(134, 3, 68);
+}
+
+legend {
+    color: red;
+}
+
+form{
+    margin-top: 200px;
+
+}
+fieldset {
+    width: 25%;
+    margin: auto;
+    border: 5px solid rgb(75, 75, 167);
+}
+
+input:not([type="checkbox"]) {
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px 2px;
+    width: 100%;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    border-color: gray;
+    outline: none;
+    border: 2px solid gray;
+    margin: auto;
+    display: block;
+}
